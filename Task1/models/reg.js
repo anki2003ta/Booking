@@ -11,7 +11,7 @@ main()
     console.log(err);
   });
 async function main() {
- await mongoose.connect("mongodb+srv://Booking:Booking@cluster0.c3z0f.mongodb.net/?retryWrites=true&w=majority");
+ await mongoose.connect("mongodb+srv://Booking:Booking@cluster0.c3z0f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
   //await mongoose.connect("mongodb://127.0.0.1:27017/register");
 }
 
