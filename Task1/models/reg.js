@@ -11,11 +11,11 @@ main()
     console.log(err);
   });
 async function main() {
- await mongoose.connect("mongodb+srv://Booking:Booking@cluster0.c3z0f.mongodb.net/register", {
+ /*await mongoose.connect("mongodb+srv://Booking:Booking@cluster0.c3z0f.mongodb.net/register", {
   bufferCommands: false,
   serverSelectionTimeoutMS: 20000 // increase timeout to 20 seconds
-});
-  //await mongoose.connect("mongodb://127.0.0.1:27017/register");
+});*/
+  await mongoose.connect("mongodb://127.0.0.1:27017/register");
 }
 
 //To handle errors after initial connection was established, you should listen for error events on the connection.
