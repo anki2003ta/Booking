@@ -22,5 +22,5 @@
 <p>MongoDB Atlas DataBase</p>
 <h1>Cloud Application For Hosting Sites:</h1>
 <p>Render</p>
-<h2>Render at This Site:-</h2>
+<h2>Deployed at:</h2>
 <a href="https://booking-1-h3l9.onrender.com">https://booking-1-h3l9.onrender.com</a>
