@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const datas = require("./models/reg.js");
 const path = require("path");
 const dotenv = require("dotenv");
-const port = process.env.PORT||3000;
+const port = 27017||3000;
 app.use(express.static(path.join(__dirname,"/public")));
 app.use(bodyParser.json());
 app.set("view engine","ejs");
